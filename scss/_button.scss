@@ -1,0 +1,15 @@
+.positivo {
+    font-style: none;
+    #texto__sass{
+        background-color: aquamarine;
+    
+
+    }
+    #boton__sass{
+        list-style: none;
+        &hover{
+            color: black;
+        }
+        text-decoration: none;
+    }
+}

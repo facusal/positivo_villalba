@@ -1,0 +1,13 @@
+.positivo {
+  font-style: none; }
+  .positivo #texto__sass {
+    background-color: aquamarine; }
+  .positivo #boton__sass {
+    list-style: none;
+    text-decoration: none; }
+    .positivo #boton__sasshover {
+      color: black; }
+
+* {
+  width: 0;
+  box-sizing: border-box; }
