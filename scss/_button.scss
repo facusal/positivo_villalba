@@ -1,7 +1,7 @@
 .positivo {
     font-style: none;
     #texto__sass{
-        background-color: aquamarine;
+        background-color: map-get($map: vars, $key:color );
     
 
     }
@@ -11,5 +11,10 @@
             color: black;
         }
         text-decoration: none;
+    }
+
+    #boton__estudio
+    {
+        @extend #boton__sass;
     }
 }

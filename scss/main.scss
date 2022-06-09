@@ -1,4 +1,5 @@
 @import "button";
+@import "vars";
 
 
 *{
@@ -6,3 +7,7 @@
     box-sizing: border-box;
 }
 
+.seccion__boton{
+    background-color: map-get($map: vars, $key:color );
+    text-align: map-get($map: vars, $key:centro );
+}
