@@ -11,3 +11,7 @@
 * {
   width: 0;
   box-sizing: border-box; }
+
+.lnk{
+  transform: scale(2,1);
+}
